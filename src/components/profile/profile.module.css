@@ -1,0 +1,8 @@
+.name {
+  font-size: 48px;
+  color: var(--color-text);
+}
+
+.city {
+  font-size: 32px;
+}

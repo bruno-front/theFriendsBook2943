@@ -1,0 +1,32 @@
+.App {
+  --color-text: green;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 600px;
+}
+
+.App-header {
+  padding: 20px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+}
+
+.App-row {
+  flex-grow: 1;
+  display: flex;
+}
+
+.App-sidebar {
+  flex-shrink: 0;
+  flex-basis: 200px;
+  padding: 20px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+}
+
+.App-main {
+  flex-grow: 1;
+  padding: 20px;
+}

@@ -1,0 +1,21 @@
+.item {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: lightblue;
+}
+
+.userpic {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.name {
+  font-size: 24px;
+  color: var(--color-text);
+}
